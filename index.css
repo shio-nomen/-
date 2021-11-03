@@ -1,0 +1,95 @@
+body {
+  background-color: bisque;
+}
+#top {
+  color: white;
+  background: rgb(230, 35, 21);
+  -webkit-box-shadow: 5px 5px 0 #007032;
+  box-shadow: 5px 5px 0 #2f3130;
+  text-align: center;
+  border-bottom: solid 3px black;
+}
+h3,
+h2,
+p,
+li {
+  text-align: center;
+}
+table {
+    width:100%;
+    table-layout: fixed;/*追加する*/
+}
+table tr {
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+section {
+  text-align: center;
+}
+.img {
+  text-align: center;
+}
+#about,
+#join,
+#contact {
+  top: 20px;
+}
+#join {
+    text-align: center;
+}
+.box27 {
+  position: relative;
+  top: 20px;
+  margin: 40px;
+  padding: 1em 1em;
+  text-align: left;
+  border: solid 3px #bd200bd0;
+}
+.box27 .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -35px;
+  left: -3px;
+  padding: 0 15px;
+  height: 35px;
+  line-height: 40px;
+  font-size: 33px;
+  background: #bd200bd0;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+.box27 p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 20px;
+}
+.nav {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.nav-list li {
+  display: inline-block;
+  margin: 0;
+  font-size: 25px;
+  border-left: 2px solid black;
+}
+.nav-list li:first-child {
+  border-left: none;
+}
+.nav-list a {
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+footer {
+  top: 30px;
+  text-align: center;
+  border-top: solid 5px lightgray;
+  padding-bottom: 10px;
+  font-size: 8px;
+}
